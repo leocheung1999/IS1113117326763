@@ -1,6 +1,6 @@
 .mainheading{
     text-align: center;
-    background-color: rgb(232, 87, 19);
+    background-color: #ff0000;
 }
 
 nav ul {
@@ -34,4 +34,18 @@ nav li a:hover:not(.active) {
 .grade {
   border: 1px solid black;
   border-collapse: collapse;
+}
+
+tr, td, th {
+    border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.TableTitle {
+    color: red;
+    text-decoration: underline;
+}
+
+body {
+    background-color: #00bfff;
 }
