@@ -1,6 +1,6 @@
 .mainheading{
     text-align: center;
-    background-color: #ff0000;
+    background-color: #cccccc;
 }
 
 nav ul {
@@ -41,11 +41,19 @@ tr, td, th {
   border-collapse: collapse;
 }
 
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
 .TableTitle {
     color: red;
     text-decoration: underline;
 }
 
 body {
-    background-color: #00bfff;
+    background-color: #f2f2f2;
+}
+
+#body {
+    background-color: #f2f2f2;
 }
