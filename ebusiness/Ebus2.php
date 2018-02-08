@@ -10,7 +10,21 @@
         <h4>Please enter your payment details</h4>
         
             <form action="Ebus3.php" method="POST">
-                <label for="user_pin">PIN</label>
+                
+                <label for="name">Name:</label>
+                <br/>
+                <input type = "text" id ="name" placeholder="Name">
+                
+                <br/>
+                
+                <label for="email">Email:</label>
+                <br/>
+                <input type = "text" id ="email" placeholder="email">
+                
+                <br/>
+                
+                <label for="user_pin">PIN:</label>
+                <br/>
                 <input type ="password" id="user_pin" placeholder="Card PIN" maxlength="4">
                 
                 <button type ="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
