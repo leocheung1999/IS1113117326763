@@ -3,6 +3,10 @@
     background-color: #e6e6e6;
 }
 
+.ebusiness{
+    float:right;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
