@@ -3,8 +3,8 @@
     background-color: #e6e6e6;
 }
 
-.ebusiness{
-    float:right;
+nav ul li:last-child {
+    float: right;
 }
 
 nav ul {
