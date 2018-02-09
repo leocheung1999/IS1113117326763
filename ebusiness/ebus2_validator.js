@@ -25,13 +25,7 @@ function validateDetails(){
     
 }
 
-    if(name == ""){
-        alert("Please enter Name");
-    }
-    
-    else {
-        enablebtnPurchase();
-    }
+  
 
 function enablebtnPurchase (){
     $('#btnPurchase').prop('disabled', false);
