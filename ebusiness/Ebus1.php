@@ -16,15 +16,17 @@
             padding-left: 25%;
         }
         
-        h3{
+        h1{
             text-align:center;
+            background-color: #00001a;
+             color: #ffffff
         }
         
         
         
     </style>
     <body>
-        <h3>Select a Product</h3>
+        <h1>Select a Product</h1>
         
         <br/>
     

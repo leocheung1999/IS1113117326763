@@ -7,8 +7,24 @@
     <script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
     <body>
-        <h4>Please enter your payment details</h4>
         
+    <style>
+        .formstyling{
+            padding-left: 25%;
+        }
+        
+        h2{
+            text-align:center;
+            background-color: #00001a;
+             color: #ffffff
+        }
+        
+        
+        
+    </style>
+        <h2>Please enter your payment details</h2>
+        
+        <div class="formstyling">
             <form action="Ebus3.php" method="POST">
                 
                 <label for="name">Name:</label>
@@ -19,7 +35,7 @@
                 
                 <label for="email">Email:</label>
                 <br/>
-                <input type = "text" id ="email" placeholder="email">
+                <input type = "text" id ="email" placeholder="Email">
                 
                 <br/>
                 
@@ -30,6 +46,7 @@
                 <button type ="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
                 
             </form>
+            <div/>
             
         <br/>
             <button onClick ="validateDetails()">Validate</button>
