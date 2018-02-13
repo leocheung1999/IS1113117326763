@@ -1,6 +1,7 @@
 .mainheading{
     text-align: center;
-    background-color: #e6e6e6;
+    background-color: #00001a;
+    color: #ffffff
 }
 
 nav ul li:last-child {
@@ -64,4 +65,14 @@ body {
 
 btnCalculate {
     background-color: #4CAF50;
+}
+
+.formstyling {
+  padding-left: 20%;
+}
+
+#ebus1 {
+    display: table-cell;
+   text-align: center;
+   vertical-align: middle;
 }

@@ -3,7 +3,7 @@
     <head>
         
     <title>Select Product</title>
-    
+    <link rel ="stylesheet" href="mystylesheet.css" type ="text/css"/>
     
     
     <!--jQuery-->
@@ -11,11 +11,24 @@
     <script type= "text/javascript" src = "cost_calc.js"></script>
     </head>
     
+    <style>
+        .formstyling{
+            padding-left: 25%;
+        }
+        
+        h3{
+            text-align:center;
+        }
+        
+        
+        
+    </style>
     <body>
-        <h4>Select a Product</h4>
+        <h3>Select a Product</h3>
         
         <br/>
-        
+    
+       <div class="formstyling">        
         <form method="POST" action ="Ebus2.php">
             <label for ="salesforce">
                 <input type ="radio" id ="salesforce" name="product" checked onClick="disablebtnProcess()"/>
@@ -50,10 +63,12 @@
             
         </form>
         
+        <button id ="calculatecost" ;style="border-radius: 8px;" style ="text-color: white;" onClick="calcSub()">Calculate Cost</button>
+        <a role="button"  href="Ebus1.php">Clear Choice</a>
+        </div>
         <br/>
         
-        <button style="border-radius: 8px;" style ="text-color: white;" onClick="calcSub()">Calculate Cost</button>
-        <a role="button"  href="Ebus1.php">Clear Choice</a>
+        
         
     </body>
 </html>
