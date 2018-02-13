@@ -3,6 +3,18 @@
     background-color: #00001a;
     color: #ffffff
 }
+.header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #555;
+}
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
 
 nav ul li:last-child {
     float: right;
@@ -67,8 +79,8 @@ btnCalculate {
     background-color: #4CAF50;
 }
 
-.formstyling {
-  padding-left: 20%;
+#formstyling {
+  padding-left: 50%;
 }
 
 #ebus1 {
@@ -76,3 +88,4 @@ btnCalculate {
    text-align: center;
    vertical-align: middle;
 }
+
