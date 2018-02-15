@@ -83,6 +83,14 @@ btnCalculate {
   padding-left: 50%;
 }
 
+
+       
+h2{
+    text-align:center;
+    background-color: #00001a;
+    color: #ffffff
+}
+
 #ebus1 {
     display: table-cell;
    text-align: center;
