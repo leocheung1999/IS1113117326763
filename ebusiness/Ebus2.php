@@ -16,17 +16,34 @@ session_start();
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <!--jQuery-->
         <script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type ="text/javascript" src="ebus2_validator.js"></script>
+        
+       <style>
+           h1{
+            text-align:center;
+            background-color: #00001a;
+            color: #ffffff
+        }
+           
+           #formstyling {
+               margin: auto;
+               width:50%;
+               padding-left:450px;
+               border-style: solid;
+               border-width: medium;
+        }
+       </style>
     </head>
     <body>
         
     
-        <h2>Please enter your payment details</h2>
+        <h1>Please enter your payment details</h1>
         
-        <div class="formstyling">
+        <div id="formstyling">
             <form action="Ebus3.php" method="POST">
                 
                 <label for="name">Name:</label>
-                <br/>
+                
                 <input type = "text" id ="name" placeholder="Name">
                 
                 <br/>
@@ -44,11 +61,11 @@ session_start();
                 <button type ="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
                 
             </form>
-            <div/>
+            
             
         <br/>
             <button onClick ="validateDetails()">Validate</button>
-       
+       <div/>
         <script type ="text/javascript" src="ebus2_validator.js"></script>
         
         <?php
