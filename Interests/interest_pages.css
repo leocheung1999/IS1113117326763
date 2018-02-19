@@ -1,14 +1,18 @@
 #section1{
     background-image:url("http://www.spain.info/export/sites/spaininfo/comun/carrusel-recursos/cataluna/barcelona-000037111798-istock.jpg_369272544.jpg");
+    background-repeat: no-repeat
 }
 #section2{
-    background-image:url("http://www.spain.info/export/sites/spaininfo/comun/carrusel-recursos/cataluna/barcelona-000037111798-istock.jpg_369272544.jpg");
+    background-image:url("https://cdn5.tropicalsky.co.uk/images/970x340/usa-multi-centres.jpg");
+    background-repeat: no-repeat
 }
 #section3{
-    background-color: rgb(20, 165, 232);
+    background-image: url("http://innovationdublin.ie/wp-content/uploads/2017/02/cropped-Innovation-Dublin.jpg");
+    background-repeat: no-repeat
 }
 .section{
     text-align:  center;
     color: white;
+    font-size: 18px;
 }
 
