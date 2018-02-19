@@ -34,4 +34,3 @@ function enablebtnPurchase (){
 function disablebtnPurchase() {
     $('#btnPurchase').prop('disabled', true);
 }
-

@@ -36,6 +36,13 @@
               font-size: 16px;
         }
         
+        #btnProceed active {
+             color: white;
+              border: none;
+              font-size: 16px;
+              background-color:#4CAF50;
+        }
+        
         nav ul li:last-child {
     float: right;
 }
@@ -88,14 +95,16 @@ tr:nth-child(even) {
     
     <body>
         
-          <nav>
+    <nav>
         <ul>
-            <li><a href="homepage.html">Homepage</a></li>
-            <li><a href="Interests/sports.html">Interests</a></li>
-            <li><a href="Interests/travel.html">Travel</a></li>
+            <li><a href="../homepage.html">Homepage</a></li>
+            <li><a href="../Interests/sports.html">Interests</a></li>
+            <li><a href="../Interests/travel.html">Travel</a></li>
             <li class ="eBusiness"><a href="ebusiness/Ebus1.php">eBusiness</a></li>
         </ul>
     </nav>
+    
+    <br/>
             <h1>Select a Product</h1>
             
             <br/>
