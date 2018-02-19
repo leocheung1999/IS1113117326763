@@ -1,24 +1,27 @@
 #section1{
     background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQuHbeD6ws5_tfIH4ZVJKd_RuT9dbWyJ20-c60hFFFsW6oxw1RQw");
     background-repeat: no-repeat;
-    background-size: cover; 
+    max-width: 100%;
+    height: auto; 
     background-position: center center;
 }
 #section2{
     background-image:url("https://cdn5.tropicalsky.co.uk/images/970x340/usa-multi-centres.jpg");
     background-repeat: no-repeat;
-    background-size: cover; 
+    max-width: 100%;
+    height: auto; 
     background-position: center center;
 }
 #section3{
     background-image: url("http://innovationdublin.ie/wp-content/uploads/2017/02/cropped-Innovation-Dublin.jpg");
     background-repeat: no-repeat;
-    background-size: cover; 
+    max-width: 100%;
+    height: auto; 
     background-position: center center;
 }
 .section{
     text-align:  center;
     color: white;
-    font-size: 18px;
+    font-size: 10px;
 }
 
