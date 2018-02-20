@@ -69,7 +69,7 @@ tr:nth-child(even) {
 }
 
 body {
-    background-color: #ffffff;
+    background-color: #b30000;
 }
 
 
@@ -90,13 +90,25 @@ h2{
 }
 
 #maintext {
-    padding-left:200px;
-    border-style: solid;
-    border-width: 2px;
+    text-align: center;
+    color: black;
 }
 
 #mainbody {
-   padding-left:500px;
-   border-style: solid;
-   border-width: 2px;
+  background-color: #a6a6a6;
  }
+ 
+ #wrapper
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:970px;
+	border: solid white 2px;
+	padding: 1em;
+	background-color: #bfbfbf;
+}
+
+#duties{
+    text-align:left;
+    margin-left: 25%;
+}
