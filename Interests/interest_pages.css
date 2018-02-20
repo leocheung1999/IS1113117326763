@@ -6,14 +6,18 @@
     text-align: center;
 }
 #section2{
-    background-image:url("https://cdn5.tropicalsky.co.uk/images/970x340/usa-multi-centres.jpg");
+    background-image:url("https://s-media-cache-ak0.pinimg.com/originals/91/91/e7/9191e7b720315d3e9dcc0723650789db.jpg");
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center center;
     text-align: center;
 }
 #section3{
-    background-color: rgb(20, 165, 232);
+    background-image:url("https://s3.eu-central-1.amazonaws.com/locationscoutnet/images/2015-01/berlin-skyline-germany-jqn8_l.jpeg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
 }
 .section{
     text-align:  center;
