@@ -78,7 +78,9 @@ btnCalculate {
 }
 
 #formstyling {
-  padding-left: 50%;
+    
+
+    
 }
 
 
@@ -95,7 +97,7 @@ h2{
 }
 
 #mainbody {
-  background-color: #a6a6a6;
+  background-color: #ccccff;
  }
  
  #wrapper
@@ -105,10 +107,16 @@ h2{
 	width:970px;
 	border: solid white 2px;
 	padding: 1em;
-	background-color: #bfbfbf;
+	background-color: #e6e6ff;
+	box-shadow: 10px 10px 5px grey;
 }
 
 #duties{
+    text-align:left;
+    margin-left: 25%;
+}
+
+#achievements{
     text-align:left;
     margin-left: 25%;
 }

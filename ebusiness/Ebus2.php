@@ -8,7 +8,7 @@ session_start();
     <head>
         <title>Enter Details</title>
     
-        <link rel="stylesheet" href="mystylesheet.css" type="text/css"/>
+        <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
     
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -18,31 +18,28 @@ session_start();
         <script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type ="text/javascript" src="ebus2_validator.js"></script>
         
-       <style>
-           h1{
-            text-align:center;
-            background-color: #00001a;
-            color: #ffffff
-        }
-           
-           #formstyling {
-               margin: auto;
-               width:50%;
-               padding-left:450px;
-               border-style: solid;
-               border-width: medium;
-        }
-       </style>
+       
     </head>
-    <body>
-        
+    <body id="mainbody">
+        <div id="wrapper">
+            
+    <nav>
+        <ul>
+            <li><a href="../homepage.html">Homepage</a></li>
+            <li><a href="../Interests/sports.html">Interests</a></li>
+            <li><a href="../Interests/travel.html">Travel</a></li>
+            <li class ="eBusiness"><a href="ebusiness/Ebus1.php">eBusiness</a></li>
+        </ul>
+    </nav>
     
-        <h1>Please enter your payment details</h1>
+        <h1 class ="mainheading">Please enter your payment details</h1>
         
         <div id="formstyling">
             <form action="Ebus3.php" method="POST">
                 
                 <label for="name">Name:</label>
+                
+                <br/>
                 
                 <input type = "text" id ="name" placeholder="Name">
                 
@@ -72,6 +69,6 @@ session_start();
         //set session variables
         $_SESSION["total"] = $_POST["total"];
         ?>
-        
+        </div>
     </body>
 </html>
