@@ -66,7 +66,9 @@ session_start();
         <script type ="text/javascript" src="ebus2_validator.js"></script>
         
         <?php
-        //set session variables
+        // set session variables
+        $_SESSION["name"] = $_POST["name"];
+        $_SESSION["email"] = $_POST["email"];
         $_SESSION["total"] = $_POST["total"];
         ?>
         </div>
