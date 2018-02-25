@@ -12,13 +12,21 @@ session_start();
             <h4 class ="mainheading">RECEIPT</h4>
             </div>
         
-        <?php
-        // Echo session variables that were set on previous page
-        echo "Name:" . $_SESSION["name"],"<br/>";
-        echo "Email:" . $_SESSION["email"] . " . ","<br/>";
-        echo "Total Price: " . $_SESSION["total"] . " . ";
+       
+         <?php
+        //echo session variables 
+        echo "Name: " . $_SESSION["name"];
         ?>
+        <br/>
+          <?php
         
+        echo "Email: " . $_SESSION["email"];
+        ?>
+        <br/>
+        <?php
+        
+        echo "Total is " . $_SESSION["total"];
+        ?>
         
        </div>
     </body>
