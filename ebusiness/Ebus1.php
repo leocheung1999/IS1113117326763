@@ -25,7 +25,7 @@
             <li><a href="../homepage.html">Homepage</a></li>
             <li><a href="../Interests/sports.html">Interests</a></li>
             <li><a href="../Interests/travel.html">Travel</a></li>
-            <li class ="eBusiness"><a href="ebusiness/Ebus1.php">eBusiness</a></li>
+            <li class ="eBusiness"><a href="ebusiness/company.html">eBusiness</a></li>
         </ul>
     </nav>
     
