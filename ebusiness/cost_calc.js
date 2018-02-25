@@ -19,13 +19,27 @@ function calcSub(){
         argSubTotal = 400;
     }
 
-    display(argSubTotal);
+    // display(argSubTotal);
+    
+    calcDisVatTotal(argSubTotal);
+}
+
+    
+    function calcDisVatTotal(parmSubTotal){
+        
+        var discount = 0.05 * parmSubTotal;
+        var vat = 0.10 * (parmSubTotal - discount);
+        var total = parmSubTotal - discount + vat;
+        
+        display(parmSubTotal,discount,vat,total)
     }
     
-    function display(parm1){
+    function display(parm1 , parm2 , parm3 , parm4){
         
         document.getElementById("subtotal").value = parm1;
-        document.getElementById("total").value = parm1;
+        document.getElementById("discount").value = parm2;
+        document.getElementById("vat").value = parm3;
+        document.getElementById("total").value = parm4;
         
         enablebtnProceed();
     }
