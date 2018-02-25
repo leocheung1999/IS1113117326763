@@ -41,13 +41,13 @@ session_start();
                 
                 <br/>
                 
-                <input type = "name" id ="name" placeholder="name">
+                <input type = "name" id ="name" placeholder="Name">
                 
                 <br/>
                 
                 <label for="email">Email:</label>
                 <br/>
-                <input type = "email" id ="email" placeholder="email">
+                <input type = "email" id ="email" placeholder="Email">
                 
                 <br/>
                 
@@ -65,12 +65,13 @@ session_start();
        <div/>
         <script type ="text/javascript" src="ebus2_validator.js"></script>
         
+        
+        </div>
         <?php
         // set session variables
         $_SESSION["name"] = $_POST["name"];
         $_SESSION["email"] = $_POST["email"];
         $_SESSION["total"] = $_POST["total"];
         ?>
-        </div>
     </body>
 </html>
