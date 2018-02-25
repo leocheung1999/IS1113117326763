@@ -20,8 +20,6 @@ session_start();
         echo "Name:" . $_SESSION["name"],"<br/>";
         echo "Email:" . $_SESSION["email"] . " . ","<br/>";
         echo "Total Price: " . $_SESSION["total"] . " . ";
-        
-         
         ?>
         
        
