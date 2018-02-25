@@ -5,6 +5,8 @@ session_start();
 <html>
     <head>
         <title>RECEIPT</title>
+        
+        <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
     </head>
      <body id="mainbody">
         <div id="wrapper">
