@@ -30,7 +30,7 @@ session_start();
         <br/>
         <?php
         
-        echo "Total is " . $_SESSION["total"];
+        echo "Total is : " . $_SESSION["total"];
         ?>
         
        </div>
