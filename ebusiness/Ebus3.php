@@ -11,8 +11,11 @@ session_start();
      <body id="mainbody">
         <div id="wrapper">
             <div id="header">
-            <h4 class ="mainheading">RECEIPT</h4>
+            <h2 class ="mainheading">RECEIPT</h2>
             </div>
+            
+        </br>
+        </br>
         
        
          <?php
