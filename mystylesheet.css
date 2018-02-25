@@ -78,9 +78,10 @@ btnCalculate {
 }
 
 #formstyling {
-    
+    width: 700px ;
+  margin-left: auto ;
+  margin-right: auto ;
 
-    
 }
        
 h2{
