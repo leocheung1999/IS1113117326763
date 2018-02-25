@@ -6,10 +6,18 @@ function calcSub(){
     
     if(document.getElementById("salesforce").checked) {
     argSubTotal = 100;
-}
-else {
-    argSubTotal = 300;
-}
+    }
+
+    else if(document.getElementById("aws").checked) {
+        argSubTotal= 300;
+    }
+    
+    else if(document.getElementById("cloud 9").checked) {
+        argSubTotal = 200;
+    }
+    else {
+        argSubTotal = 400;
+    }
 
     display(argSubTotal);
     }

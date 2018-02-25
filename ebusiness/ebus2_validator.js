@@ -12,8 +12,8 @@ function validateDetails(){
     name = document.getElementById("name").value;
     
     
-    if(pin ==""){
-        alert("Please enter your PIN");
+    if(pin =="" || name=="" || email==""){
+        alert("Please enter your details");
         
     }
     else if (String(pin).length < 4){
