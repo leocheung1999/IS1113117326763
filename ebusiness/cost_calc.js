@@ -36,10 +36,10 @@ function calcSub(){
     
     function display(parm1 , parm2 , parm3 , parm4){
         
-        document.getElementById("subtotal").value = $ + parm1;
-        document.getElementById("discount").value = $ + parm2;
-        document.getElementById("vat").value = $ + parm3;
-        document.getElementById("total").value = $ + parm4;
+        document.getElementById("subtotal").value = '$' + parm1;
+        document.getElementById("discount").value = '$' + parm2;
+        document.getElementById("vat").value = '$' + parm3;
+        document.getElementById("total").value = '$' + parm4;
         
         enablebtnProceed();
     }
