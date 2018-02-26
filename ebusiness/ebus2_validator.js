@@ -8,8 +8,8 @@ function validateDetails(){
     
     
     pin = document.getElementById("user_pin").value;
-    email = document.getElementById("email").value
-    name = document.getElementById("name").value;
+    email = document.getElementsByName("email").value
+    name = document.getElementsByName("name").value;
     
     
     if(pin =="" || name=="" || email==""){
