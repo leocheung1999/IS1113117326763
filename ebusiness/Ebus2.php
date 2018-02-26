@@ -35,7 +35,7 @@ session_start();
         <h1 class ="mainheading">Please enter your payment details</h1>
         
         <div id="formstyling">
-            <form method="post" action="Ebus3.php">    
+            <form method="POST" action="Ebus3.php">    
                 
                 <label for="name">Name:</label>
                 

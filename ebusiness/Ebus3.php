@@ -13,17 +13,13 @@ session_start();
             <div id="header">
             <h2 class ="mainheading">RECEIPT</h2>
             </div>
-        
-<?php
-$_SESSION["name"]= $_POST["name"];
-$_SESSION["email"]= $_POST["email"];
-?>
-
-        
             
         </br>
         </br>
-        
+        <?php
+        $_SESSION["name"]= $_POST["name"];
+        $_SESSION["email"]= $_POST["email"];
+        ?>
        
          <?php
         //echo session variables 
