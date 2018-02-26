@@ -19,10 +19,16 @@ session_start();
         
        
          <?php
+        //echo session variables 
+        $_SESSION["name"] = $_POST["name"];
+        $_SESSION["email"] = $_POST["email"];
+        ?>
         
-        echo "Name: " . $_POST["name"] . ",<br/>";
+        <?php
         
-        echo "Email: " . $_POST["email"] . ".<br/>";
+        echo "Name: " . $_SESSION["name"] . ",<br/>";
+        
+        echo "Email: " . $_SESSION["email"] . ".<br/>";
 
         echo "Total is : " . $_SESSION["total"] . ".";
         ?>
