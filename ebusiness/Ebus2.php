@@ -37,19 +37,22 @@ session_start();
         <div id="formstyling">
             <form method="POST" action="Ebus3.php">    
                 
-                <label for="name">Name:</label>
-                
-                <br/>
-                
-                <input type = "name" id ="name" placeholder="Name">
-                
-                <br/>
-                
-                <label for="email">Email:</label>
-                <br/>
-                <input type = "email" id ="email" placeholder="Email">
-                
-                <br/>
+                <!--name label-->
+              <label for="name">Name:</label>
+              
+              <br/>
+              
+              <input type="text" name="name" placeholder="Name" maxlength="20" required=''>
+              
+              <br/>
+              <!--email label-->
+              <label for="email">Email:</label>
+              
+              <br/>
+              
+              <input type="email" name="email" placeholder="Email" required=''>
+              
+              <br/>
                 
                 <label for="user_pin">PIN:</label>
                 <br/>
