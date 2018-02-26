@@ -16,13 +16,13 @@ session_start();
             
         </br>
         </br>
-        <?php
-        $_SESSION["name"]= $_POST["name"];
-        $_SESSION["email"]= $_POST["email"];
-        ?>
+        
        
          <?php
         //echo session variables 
+        $_SESSION["name"]= $_POST["name"];
+        $_SESSION["email"]= $_POST["email"];
+        
         echo "Name: " . $_SESSION["name"] . ",<br/>";
         
         echo "Email: " . $_SESSION["email"] . ".<br/>";
