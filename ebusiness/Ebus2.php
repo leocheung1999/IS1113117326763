@@ -1,8 +1,6 @@
 <?php
 //start the session
 session_start();
-$_SESSION["name"] = $_POST["name"];
-$_SESSION["email"] = $_POST["email"];
 ?>
 
 <!DOCTYPE html>
@@ -37,7 +35,7 @@ $_SESSION["email"] = $_POST["email"];
         <h1 class ="mainheading">Please enter your payment details</h1>
         
         <div id="formstyling">
-            <form action="Ebus3.php" method="POST">
+            <form method="post" action="Ebus3.php">    
                 
                 <label for="name">Name:</label>
                 
