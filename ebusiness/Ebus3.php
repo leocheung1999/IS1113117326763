@@ -26,9 +26,9 @@ session_start();
         
         <?php
         
-        echo "Name: " . $_SESSION["name"] . ",<br/>";
+        echo "Name: " . $_SESSION["name"] , "<br/>";
         
-        echo "Email: " . $_SESSION["email"] . ".<br/>";
+        echo "Email: " . $_SESSION["email"] . ".","<br/>";
 
         echo "Total is : " . $_SESSION["total"] . ".";
         ?>
