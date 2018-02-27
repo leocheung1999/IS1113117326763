@@ -42,7 +42,7 @@ session_start();
               
               <br/>
               
-              <input type="text" name="name" placeholder="Name" maxlength="20" required='' width="70%">
+              <input type="text" name="name" placeholder="Name" maxlength="20" required='' style="width:70%">
               
               <br/>
               <!--email label-->
@@ -50,13 +50,13 @@ session_start();
               
               <br/>
               
-              <input type="email" name="email" placeholder="Email" required='' width="70%">
+              <input type="email" name="email" placeholder="Email" required='' style ="width:70%">
               
               <br/>
                 
                 <label for="user_pin">PIN:</label>
                 <br/>
-                <input type ="password" id="user_pin" placeholder="Card PIN" maxlength="4" width="70%">
+                <input type ="password" id="user_pin" placeholder="Card PIN" maxlength="4" style ="width:70%">
                 
                 <button type ="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
                 
