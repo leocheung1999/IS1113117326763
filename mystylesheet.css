@@ -101,6 +101,7 @@ h2{
 
 #mainbody {
   background-color: #ccccff;
+  font-family: Arial, Helvetica, sans-serif;
  }
  
  #wrapper
@@ -123,6 +124,11 @@ h2{
 #achievements{
     text-align:left;
     margin-left: 25%;
+}
+
+#skills{
+    text-align:left;
+    margin-left: 40%;
 }
 
 #products{
