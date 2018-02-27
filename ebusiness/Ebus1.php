@@ -101,7 +101,7 @@
               <br/>
               <br/>
               
-              <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+              <button type="submit" class="btnProceed" disabled>Add to Shopping Cart</button>
             
             </form>
             
