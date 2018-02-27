@@ -4,20 +4,20 @@ session_start();
 <!DOCTYPE html>
 <html>
     <head>
-        <title>RECEIPT</title>
+        <title>Receipt</title>
         
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
     </head>
      <body id="mainbody">
         <div id="wrapper">
             <div id="header">
-            <h2 class ="mainheading">RECEIPT</h2>
+            <h2 class ="mainheading">Purchase Receipt</h2>
             </div>
             
         </br>
         </br>
         
-       
+       <center>
          <?php
         //echo session variables 
         $_SESSION["name"] = $_POST["name"];
@@ -26,6 +26,7 @@ session_start();
         
         <?php
         
+        
         echo "Name: " . $_SESSION["name"] , "<br/>";
         
         echo "Email: " . $_SESSION["email"] . ".","<br/>";
@@ -33,6 +34,7 @@ session_start();
         echo "Total is : " . $_SESSION["total"] . ".";
         ?>
         
+        </center>
        </div>
        
      
