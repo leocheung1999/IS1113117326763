@@ -71,7 +71,7 @@
               
               <label for="subtotal">
                 Sub Total
-                <input type="text" id="subtotal" value="0.00" readonly style="float:right"/>
+                <input type="text" id="subtotal" value="0.00" readonly style="float:right" width="15%"/>
               </label>
               
               <br/>
@@ -79,7 +79,7 @@
               
                 <label for="discount">
                   Discount @ 5%:
-                  <input type="text" id="discount" value=0.00 readonly style="float:right"/>
+                  <input type="text" id="discount" value=0.00 readonly style="float:right" width="15%"/>
                 </label>
               
               <br/>
@@ -87,7 +87,7 @@
                   <!--Vat Label-->
                 <label for ="vat">
                   Vat @ 10%:
-                  <input type="text" id=vat value=0.00 readonly style="float:right"/>
+                  <input type="text" id=vat value=0.00 readonly style="float:right" width="15%"/>
                 </label>
                 
               <br/>
@@ -95,7 +95,7 @@
               
               <label for="total">
                 Total
-                <input type="text" id="total" name="total" value="0.00" readonly style="float:right"/>
+                <input type="text" id="total" name="total" value="0.00" readonly style="float:right" width="15%"/>
               </label>
     
               <br/>

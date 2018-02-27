@@ -207,7 +207,7 @@ p{
     border: 2px solid #f44336;
 }
 
-#btnPuchase.active {
+#btnPuchase.hover {
     background-color: #f44336;
     color: white;
 }
