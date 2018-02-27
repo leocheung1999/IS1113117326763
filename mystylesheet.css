@@ -1,7 +1,8 @@
 .mainheading{
     text-align: center;
     background-color: #00001a;
-    color: #ffffff
+    color: #ffffff;
+    margin-top:0px;
 }
 .header img {
   float: left;
@@ -109,6 +110,7 @@ h2{
 	width:970px;
 	border: solid white 2px;
 	padding: 1em;
+	padding-bottom: 55px;
 	background-color: #e6e6ff;
 	box-shadow: 10px 10px 5px grey;
 }
@@ -222,4 +224,43 @@ p{
     cursor: pointer;
     border: 2px solid #008CBA;
     background-color: #008CBA;
+}
+
+.btnNext{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    float: right;
+    border-radius: 8px;
+    
+}
+
+.btnShop{
+    color: black;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 20px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    border: 2px solid #008CBA;
+}
+    
+.btnShop:hover{
+    background-color: #008CBA;
+    color: white;
+}
+
+.btn-primary{
+    float: right;
+}
+
+.btn-success{
+    float: right;
 }
