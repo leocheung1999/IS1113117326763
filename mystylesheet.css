@@ -148,7 +148,7 @@ p{
     float:left;
 }
 
-.calc{
+.btnCalc{
     color: black;
     padding: 8px 16px;
     text-align: center;
@@ -160,7 +160,7 @@ p{
     border: 2px solid #4CAF50;
 }
 
-.calc:hover {
+.btnCalc:hover {
     background-color: #4CAF50;
     color: white;
 }
@@ -182,7 +182,8 @@ p{
     color: white;
 }
 
-.clear{color: black;
+.btnClear{
+    color: black;
     padding: 8px 16px;
     text-align: center;
     font-size: 12px;
@@ -194,3 +195,30 @@ p{
 }
 
 
+#btnPurchase{
+    color: black;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 12px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    border: 2px solid #f44336;
+}
+
+#btnPuchase:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+#btnValidate{
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 12px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid #008CBA;
+}

@@ -106,8 +106,8 @@
             </form>
             
             <br/>
-            <button class ="calc" onClick="calcSub()" >Calculate Cost</button>
-            <a role="button" class ="clear" href="Ebus1.php">Clear Choice</a>
+            <button class ="btnCalc" onClick="calcSub()" >Calculate Cost</button>
+            <a role="button" class ="btnClear" href="Ebus1.php">Clear Choice</a>
             </form>
         </div>    
     </div>

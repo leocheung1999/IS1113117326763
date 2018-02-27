@@ -64,7 +64,7 @@ session_start();
             
             
         <br/>
-            <button onClick ="validateDetails()">Validate</button>
+            <button id="btnValidate" onClick ="validateDetails()">Validate</button>
        <div/>
         <script type ="text/javascript" src="ebus2_validator.js"></script>
         
