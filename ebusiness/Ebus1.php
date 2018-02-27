@@ -25,7 +25,7 @@
             <li><a href="../homepage.html">Homepage</a></li>
             <li><a href="../Interests/sports.html">Interests</a></li>
             <li><a href="../Interests/travel.html">Travel</a></li>
-            <li class ="eBusiness"><a href="ebusiness/company.html">eBusiness</a></li>
+            <li class ="eBusiness"><a href="company.html">eBusiness</a></li>
         </ul>
     </nav>
     
@@ -101,7 +101,7 @@
               <br/>
               <br/>
               
-              <button type="submit" class="btnProceed" disabled>Add to Shopping Cart</button>
+              <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             
             </form>
             
