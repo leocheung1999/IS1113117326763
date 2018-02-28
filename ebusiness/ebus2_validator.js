@@ -26,9 +26,7 @@ function validateDetails(){
 }
 
   
-function restart(){
-    $('#btnPurchase').prop('disabled', false);
-}
+
 
 function enablebtnPurchase (){
     
