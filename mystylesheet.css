@@ -267,3 +267,8 @@ p{
 .btn-success{
     float: right;
 }
+
+#resources{
+    font-size: 12px;
+    margin-bottom: -45px;
+}
