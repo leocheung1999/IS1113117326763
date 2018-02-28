@@ -211,13 +211,18 @@ p{
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
-    background-color: white; 
+    background-color:white; 
     border: 2px solid #f44336;
 }
 
-#btnPuchase.hover {
+#btnPurchase:hover{
     background-color: #f44336;
     color: white;
+}
+
+#btnPurchase:disabled{
+    opacity: 0.6;
+    cursor: not-allowed;
 }
 
 #btnValidate{

@@ -47,7 +47,7 @@ session_start();
         echo "Total is : " . $_SESSION["total"] . ".";
         ?>
         
-        <p><strong>Thank you for shopping at Buzz & Ronny's Cloud services. If you have any further enquires please email : BuzzAndRonny@Ethivag.ie</strong></p>
+        <p><strong>Thank you for shopping at Buzz & Ronny's Cloud services. If you have any further enquires please email : BuzzAndRonny@email.ie</strong></p>
         </center>
        </div>
        

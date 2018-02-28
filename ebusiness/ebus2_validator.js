@@ -12,15 +12,25 @@ function validateDetails(){
     name = document.getElementsByName("name").value;
     
     
-    if(pin =="" || name=="" || email==""){
-        alert("Please enter your details");
+    if(pin ==""){
+        alert("Please enter your PIN");
         
     }
-    else if (String(pin).length < 4){
+    if (String(pin).length < 4){
         alert("Please make sure your PIN is accurate");
     }
+    
+     if (email == ""){
+        alert("Please ensure you have entered your E-mail.");
+    }
+    
+    if (name == ""){
+        alert("Please ensure you have entered your name");
+    }
     else{
+        
         enablebtnPurchase();
+        
     }
     
 }
@@ -28,7 +38,6 @@ function validateDetails(){
   
 
 function enablebtnPurchase (){
-    console.log("enable");
     $('#btnPurchase').prop('disabled', false);
 }    
 
@@ -36,7 +45,4 @@ function disablebtnPurchase() {
     $('#btnPurchase').prop('disabled', true);
 }
 
-if(btnPurchase.prop('disabled', false){
-    btnPurchase.color
-}
 

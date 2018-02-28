@@ -32,7 +32,7 @@ session_start();
         </ul>
     </nav>
     
-        <h1 class ="mainheading">Please enter your payment details</h1>
+        <h2 class ="mainheading">Please enter your payment details</h2>
         
         <div id="formstyling">
             <form method="POST" action="Ebus3.php">    
@@ -51,14 +51,14 @@ session_start();
               
               <br/>
               
-              <input type="email" name="email" placeholder="Email" required='' style ="width:150%">
+              <input type="email" name="email" placeholder="Email e.g Djimi@umail.ucc.ie" required='' style ="width:150%">
               
               <br/>
               <br/>
                 
                 <label for="user_pin"><strong>PIN:</strong></label>
                 <br/>
-                <input type ="password" id="user_pin" placeholder="Card PIN" maxlength="4" style ="width:150%">
+                <input type ="password" id="user_pin" placeholder="Card PIN" maxlength="4" required='' style ="width:150%">
                 
                 <br/>
                 <br/>
