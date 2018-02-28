@@ -1,4 +1,5 @@
 <?php
+//start the session
 session_start();
 ?>
 <!DOCTYPE html>
@@ -34,7 +35,7 @@ session_start();
         <br/>
         
          <?php
-        //echo session variables 
+        // set session variables
         $_SESSION["name"] = $_POST["name"];
         $_SESSION["email"] = $_POST["email"];
         ?>
@@ -42,6 +43,7 @@ session_start();
         
         
         <?php
+        //echo session variables
         echo "Name: " . $_SESSION["name"] , "<br/>";
         echo "Email: " . $_SESSION["email"] . ".","<br/>";
         echo "Total is : " . $_SESSION["total"] . ".";

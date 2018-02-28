@@ -5,15 +5,10 @@
         <title>Select Product</title>
         <link rel ="stylesheet" href="../mystylesheet.css" type ="text/css"/>
         
-        
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
-        
-        
-      </style>
+      
     </head>
     
     
@@ -30,11 +25,11 @@
         </nav>
         
         <br/>
-                <h1 class ="mainheading">Select a Product</h1>
+        <h1 class ="mainheading">Select a Product</h1>
                 
-                <br/>
-                
-                <div id="formstyling">
+              <br/>
+              
+              <div id="formstyling">
                 <form method="POST" action="Ebus2.php">
                   
                   <label for="salesforce">
@@ -103,12 +98,12 @@
                   
                   <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
                 
-              </form>
-              
-              <br/>
-              <button class ="btnCalc" onClick="calcSub()" >Calculate Cost</button>
-              <a role="button" class ="btnClear" href="Ebus1.php">Clear Choice</a>
-              </form>
+                </form>
+            
+                <br/>
+                <button class ="btnCalc" onClick="calcSub()" >Calculate Cost</button>
+                <a role="button" class ="btnClear" href="Ebus1.php">Clear Choice</a>
+            
           </div>    
       </div>
     </body>
