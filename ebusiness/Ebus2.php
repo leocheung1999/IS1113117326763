@@ -38,7 +38,7 @@ session_start();
             <form method="POST" action="Ebus3.php">    
                 
                 <!--name label-->
-              <label for="name">Name:</label>
+              <label for="name"><strong>Name:</strong></label>
               
               <br/>
               
@@ -47,7 +47,7 @@ session_start();
               <br/>
               <br/>
               <!--email label-->
-              <label for="email">Email:</label>
+              <label for="email"><strong>Email:</strong></label>
               
               <br/>
               
@@ -56,7 +56,7 @@ session_start();
               <br/>
               <br/>
                 
-                <label for="user_pin">PIN:</label>
+                <label for="user_pin"><strong>PIN:</strong></label>
                 <br/>
                 <input type ="password" id="user_pin" placeholder="Card PIN" maxlength="4" style ="width:150%">
                 

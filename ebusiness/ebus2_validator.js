@@ -28,9 +28,15 @@ function validateDetails(){
   
 
 function enablebtnPurchase (){
+    console.log("enable");
     $('#btnPurchase').prop('disabled', false);
 }    
 
 function disablebtnPurchase() {
     $('#btnPurchase').prop('disabled', true);
 }
+
+if(btnPurchase.prop('disabled', false){
+    btnPurchase.color
+}
+
