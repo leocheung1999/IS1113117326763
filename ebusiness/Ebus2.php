@@ -63,7 +63,7 @@ session_start();
                 <br/>
                 <br/>
                 
-                <button type ="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
+                <button type ="submit" id="btnPurchase" disabled onClick ="Restart()">Proceed with Purchase</button>
                 
             </form>
             

@@ -12,29 +12,23 @@ function validateDetails(){
     name = document.getElementsByName("name").value;
     
     
-    if(pin =="" ){
-        alert("Please enter your PIN");
+    if(pin =="" || name=="" || email==""){
+        alert("Please enter your details");
     }
     else if (String(pin).length < 4){
         alert("Please make sure your PIN is accurate");
     }
-    
-    if (name ==""){
-        alert("Please enter Name");
-    }
-    
-    if (email ==""){
-        alert("Please enter Email");
-    }
-    
     else{
         enablebtnPurchase();
     }
     
-   
+    
 }
 
   
+function restart(){
+    $('#btnPurchase').prop('disabled', false);
+}
 
 function enablebtnPurchase (){
     
