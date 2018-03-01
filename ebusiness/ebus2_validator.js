@@ -1,5 +1,11 @@
 /* global $ */
 
+var pin;
+pin = document.getElementById("user_pin").value;
+
+if(pin ==""){
+        disablebtnPurchase();
+}        
 //Function to validate details
 function validateDetails(){
     
