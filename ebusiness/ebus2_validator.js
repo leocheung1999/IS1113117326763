@@ -14,12 +14,23 @@ function validateDetails(){
     name = document.getElementsByName("name").value;
     
     //If statement to validate details
-    if(pin =="" || name=="" || email==""){
-        alert("Please enter your details");
+    if(pin ==""){
+        alert("Please enter your PIN");
     }
     else if (String(pin).length < 4){
         alert("Please make sure your PIN is accurate");
     }
+    
+    else if(name==""){
+        alert("Please enter name");
+        return false;
+    }
+    
+    else if(email==""){
+        alert("Please enter email");
+        return false;
+    }
+    
     else{
         enablebtnPurchase();
     }

@@ -50,6 +50,9 @@ session_start();
         ?>
         
         <p><strong>Thank you for shopping at Buzz & Ronny's Cloud services. If you have any further enquires please email : BuzzAndRonny@email.ie</strong></p>
+        
+        <br/>
+        <a href= "Ebus1.php"><button class="btnShop">Back to Shop</button></a>
         </center>
        </div>
        

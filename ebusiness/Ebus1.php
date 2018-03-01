@@ -24,7 +24,7 @@
             </ul>
         </nav>
         
-        <br/>
+        
         <h1 class ="mainheading">Select a Product</h1>
                 
               <br/>
