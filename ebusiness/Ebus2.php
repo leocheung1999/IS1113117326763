@@ -34,28 +34,30 @@ session_start();
             <div id="formstyling">
                 <form name="details" method="POST" action="Ebus3.php">    
                     
-                        <!--name label-->
+                        
                     <label for="name"><strong>Name:</strong></label>
                       
                     <br/>
                       
-                    <input type="text" id ="name" name="name" placeholder="Name" maxlength="20" required='' style="width:150%">
+                      <!--Validating Name-->
+                    <input type="text" id ="name" name="name" placeholder="Name" maxlength="20" required='' pattern="[a-zA-Z]*" title="No numbers or special characters allowed" style="width:150%">
                       
                     <br/>
                     <br/>
-                      <!--email label-->
+                      
                     <label for="email"><strong>Email:</strong></label>
                       
                     <br/>
-                      
-                    <input type="email" id="email" name="email" placeholder="Email e.g Djimi@umail.ucc.ie" required='' style ="width:150%">
+                     <!--Validating email.Code for pattern from w3Schools-->
+                    <input type="email" id="email" name="email" placeholder="Email e.g Djimi@umail.ucc.ie" required='' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Please enter email format. Eg. Djimi@email.ie" style ="width:150%">
                       
                     <br/>
                     <br/>
                     
                     <label for="user_pin"><strong>PIN:</strong></label>
                     <br/>
-                    <input type ="password" id="user_pin" placeholder="Card PIN" maxlength="4" required='' style ="width:150%">
+                    <!--Validating Pin-->
+                    <input type ="password" id="user_pin" placeholder="Card PIN" maxlength="4" required='' pattern="\d*" title="Only Numbers allowed" style ="width:150%">
                         
                     <br/>
                     <br/>
