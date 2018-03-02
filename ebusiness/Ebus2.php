@@ -39,7 +39,7 @@ session_start();
                       
                     <br/>
                       
-                    <input type="text" name="name" placeholder="Name" maxlength="20" required='' style="width:150%">
+                    <input type="text" id ="name" name="name" placeholder="Name" maxlength="20" required='' style="width:150%">
                       
                     <br/>
                     <br/>
@@ -48,7 +48,7 @@ session_start();
                       
                     <br/>
                       
-                    <input type="email" name="email" placeholder="Email e.g Djimi@umail.ucc.ie" required='' style ="width:150%">
+                    <input type="email" id="email" name="email" placeholder="Email e.g Djimi@umail.ucc.ie" required='' style ="width:150%">
                       
                     <br/>
                     <br/>
