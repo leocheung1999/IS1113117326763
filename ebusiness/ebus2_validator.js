@@ -40,6 +40,7 @@ function validateDetails(){
     return false;
     }
     
+    
     return true;
 }
     
