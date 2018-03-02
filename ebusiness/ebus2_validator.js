@@ -16,11 +16,11 @@ function validateDetails(){
     
     //Assigning values to variables
     pin = document.getElementById("user_pin").value;
-    email = document.forms["myForm"]["email"].value;
-    name = document.forms["myForm"]["name"].value;
+    email = document.forms["details"]["email"].value;
+    name = document.forms["details"]["name"].value;
     
     //If statement to validate details
-    if(pin ==""){
+    if(pin == ""){
         disablebtnPurchase();
         alert("Please enter your PIN");
     }
@@ -30,12 +30,12 @@ function validateDetails(){
         
     }
     
-    else if(name==""){
+    else if(name == ""){
         alert("Please enter name");
         return false;
     }
     
-    else if(email==""){
+    else if(email == ""){
         alert("Please enter email");
         return false;
     }
