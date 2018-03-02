@@ -32,7 +32,7 @@ session_start();
             <h2 class ="mainheading">Please enter your payment details</h2>
         
             <div id="formstyling">
-                <form method="POST" action="Ebus3.php" onSubmit="return ValidateDetails()">    
+                <form method="POST" action="Ebus3.php">    
                     
                         <!--name label-->
                     <label for="name"><strong>Name:</strong></label>
@@ -66,7 +66,7 @@ session_start();
                 
                 
                 <br/>
-                <button  type ="submit" id="btnValidate" >Validate</button>
+                <button  type ="submit" id="btnValidate" onClick ="validateDetails()">Validate</button>
             <div/>
             <script type ="text/javascript" src="ebus2_validator.js"></script>
         

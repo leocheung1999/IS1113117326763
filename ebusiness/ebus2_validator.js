@@ -31,16 +31,18 @@ function validateDetails(){
     }
     
     if(name==""){
+        disablebtnPurchase()
         alert("Please enter name");
         return false;
     }
     
     if(email==""){
-    alert("Please enter email");
-    return false;
+        disablebtnPurchase()
+        alert("Please enter email");
+        return false;
     }
     
-    
+    enablebtnPurchase()
     return true;
 }
     
