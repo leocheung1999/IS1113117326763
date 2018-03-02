@@ -1,11 +1,21 @@
 /* global $ */
 
+function correctDetails(){
 var pin;
-pin = document.getElementById("user_pin").value;
+var name;
+var email;
+    
+    //Assigning values to variables
+    pin = document.getElementById("user_pin").value;
+    email = document.forms["details"]["email"].value;
+    name = document.forms["details"]["name"].value;
 
-if(pin ==""){
+
+ if(pin == "" || email == "" || name == ""){
         disablebtnPurchase();
-}        
+  }      
+
+}
 //Function to validate details
 function validateDetails(){
     
@@ -31,12 +41,12 @@ function validateDetails(){
     }
     
     else if(name == ""){
-        alert("Please enter name");
+        alert("Please enter your name");
         return false;
     }
     
     else if(email == ""){
-        alert("Please enter email");
+        alert("Please enter your email");
         return false;
     }
     
