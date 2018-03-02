@@ -30,13 +30,13 @@ function validateDetails(){
         return false;
     }
     
-    if(name==""){
+    else if(name==""){
         disablebtnPurchase()
         alert("Please enter name");
         return false;
     }
     
-    if(email==""){
+    else if(email==""){
         disablebtnPurchase()
         alert("Please enter email");
         return false;
