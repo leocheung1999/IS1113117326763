@@ -11,13 +11,12 @@ function validateDetails(){
     
     //Declaring out variables
     var pin;
-    var name;
-    var email;
+   
+    
     
     //Assigning values to variables
     pin = document.getElementById("user_pin").value;
-    email = document.getElementsByName("email").value;
-    name = document.getElementsByName("name").value;
+    
     
     if(pin ==""){
         disablebtnPurchase();
@@ -27,25 +26,41 @@ function validateDetails(){
     else if (String(pin).length < 4){
         disablebtnPurchase();
         alert("Please make sure your PIN is accurate");
-        return false;
+       
     }
     
-    else if(name==""){
-        disablebtnPurchase()
-        alert("Please enter name");
-        return false;
-    }
-    
-    else if(email==""){
-        disablebtnPurchase()
-        alert("Please enter email");
-        return false;
-    }
-    
-    enablebtnPurchase()
-    return true;
+   else{
+       nameValidate()
+   }
 }
+
+function nameValidate(){
+     var name;
+     
+     name = document.getElementsByName("name").value;
+     
+     if(name==""){
+         disablebtnPurchase()
+     }
+     
+    else{
+        emailValidate()
+    }
+}    
+
+function emailValidate(){
+    var email;
     
+    email = document.getElementsByName("email").value;
+    
+    if(email==""){
+        disablebtnPurchase()
+    }
+    
+    else{
+        enablebtnPurchase()
+    }
+}    
     
 
 
