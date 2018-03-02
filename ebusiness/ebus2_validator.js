@@ -13,6 +13,7 @@ var email;
 
  if(pin == "" || email == "" || name == ""){
         disablebtnPurchase();
+        alert("Please ensure all details are filled out");
   }      
 
 }
