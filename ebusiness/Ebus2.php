@@ -32,7 +32,7 @@ session_start();
             <h2 class ="mainheading">Please enter your payment details</h2>
         
             <div id="formstyling">
-                <form method="POST" action="Ebus3.php">    
+                <form method="POST" action="Ebus3.php" onSubmit="return ValidateDetails();">    
                     
                         <!--name label-->
                     <label for="name"><strong>Name:</strong></label>

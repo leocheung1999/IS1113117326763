@@ -19,34 +19,31 @@ function validateDetails(){
     email = document.getElementsByName("email").value;
     name = document.getElementsByName("name").value;
     
-    //If statement to validate details
     if(pin ==""){
         disablebtnPurchase();
         alert("Please enter your PIN");
+        return false;
     }
     else if (String(pin).length < 4){
         disablebtnPurchase();
         alert("Please make sure your PIN is accurate");
-        
+        return false;
     }
     
-    else if(name==""){
+    if(name==""){
         alert("Please enter name");
         return false;
     }
     
-    else if(email==""){
-        alert("Please enter email");
-        return false;
+    if(email==""){
+    alert("Please enter email");
+    return false;
     }
     
-    else{
-        enablebtnPurchase();
-    }
-    
+    return true;
 }
-   //end of function
-  
+    
+    
 
 
 function enablebtnPurchase (){
