@@ -30,7 +30,7 @@ function validateDetails(){
     }
     
    else{
-       nameValidate()
+       nameValidate();
    }
 }
 
@@ -40,11 +40,11 @@ function nameValidate(){
      name = document.getElementsByName("name").value;
      
      if(name==""){
-         disablebtnPurchase()
+         disablebtnPurchase();
      }
      
     else{
-        emailValidate()
+        emailValidate();
     }
 }    
 
@@ -54,11 +54,11 @@ function emailValidate(){
     email = document.getElementsByName("email").value;
     
     if(email==""){
-        disablebtnPurchase()
+        disablebtnPurchase();
     }
     
     else{
-        enablebtnPurchase()
+        enablebtnPurchase();
     }
 }    
     
