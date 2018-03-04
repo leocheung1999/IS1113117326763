@@ -32,7 +32,7 @@ session_start();
             <h2 class ="mainheading">Please enter your payment details</h2>
         
             <div id="formstyling">
-                <form name="details" method="POST" action="Ebus3.php">    
+                <form name="details"  action="Ebus3.php" method="POST">    
                     
                         
                     <label for="name"><strong>Name:</strong></label>
@@ -48,8 +48,8 @@ session_start();
                     <label for="email"><strong>Email:</strong></label>
                       
                     <br/>
-                     <!--Validating email.Code for pattern from w3Schools-->
-                    <input type="email" id="email" name="email" placeholder="Email e.g Djimi@umail.ucc.ie" required='' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Please enter email format. Eg. Djimi@email.ie" style ="width:150%">
+                     <!--Validating email. Code for pattern from w3Schools-->
+                    <input type="email" id="email" name="email" placeholder="Email e.g djimi@umail.ucc.ie" required='' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Please enter email format, No Capitals. Eg. djimi@email.ie" style ="width:150%">
                       
                     <br/>
                     <br/>
