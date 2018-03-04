@@ -49,7 +49,7 @@ session_start();
                       
                     <br/>
                      <!--Validating email. Code for pattern from w3Schools-->
-                    <input type="email" id="email" name="email" placeholder="Email e.g djimi@umail.ucc.ie" required='' pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-zA-Z]{2,3}$" title="Please enter email format, No Capitals. Eg. djimi@email.ie" style ="width:150%">
+                    <input type="email" id="email" name="email" placeholder="Email e.g djimi@umail.ucc.ie" required='' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Please enter email format, No Capitals. Eg. djimi@email.ie" style ="width:150%">
                       
                     <br/>
                     <br/>
