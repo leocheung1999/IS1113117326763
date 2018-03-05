@@ -87,7 +87,7 @@ tr:nth-child(even) {
 
 /*Design of main body*/
 #mainbody {
-  background-color: #ccccff;
+  background-color:#ccddff;
   font-family: Arial, Helvetica, sans-serif;
  }
  
@@ -99,7 +99,7 @@ tr:nth-child(even) {
 	border: solid white 2px;
 	padding: 1em;
 	padding-bottom: 55px;
-	background-color: #e6e6ff;
+	background-color: #e6eeff;
 	box-shadow: 10px 10px 5px grey;
 }
 
