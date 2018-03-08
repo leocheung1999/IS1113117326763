@@ -110,6 +110,11 @@ tr:nth-child(even) {
     margin-left: 25%;
 }
 
+#restaurant{
+    text-align:left;
+    margin-left: 25%;
+}
+
 #achievements{
     text-align:left;
     margin-left: 25%;
@@ -253,12 +258,14 @@ tr:nth-child(even) {
     cursor: pointer;
     background-color: white; 
     border: 2px solid #f44336;
+    text-decoration: none;
     
 }
     
 .btnShop:hover{
     background-color: #f44336;
     color: white;
+    text-decoration: none;
 }
 
 .btn-primary{

@@ -1,10 +1,31 @@
 
 /*CSS for pagepilling*/
 #section4{
-    background-color:#ccddff;
+    background-color:#e6eeff;
 }    
 
+#section5{
+    background-color:#e6eeff;
+}    
+
+#section6{
+    background-color:#e6eeff;
+}    
+
+#section7{
+    background-color:#e6eeff;
+}    
+
+#section8{
+    background-color:#e6eeff;
+}    
 /*Position of button*/
 .shopButton{
     text-align: center;
+    text-decoration: none;
 }
+
+.mainbody{
+    background-color:#ccddff;
+    font-family: Arial, Helvetica, sans-serif;
+ }

@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+      <meta charset="utf-8"/>
         <title>Select Product</title>
         <link rel ="stylesheet" href="../mystylesheet.css" type ="text/css"/>
         
@@ -49,8 +50,8 @@
                   <br/>
                   <br/>
                   
-                  <label for="cloud 9">
-                    <input type="radio" id="cloud 9" name="product" onClick="disablebtnProceed()"/>
+                  <label for="cloud9">
+                    <input type="radio" id="cloud9" name="product" onClick="disablebtnProceed()"/>
                     Cloud 9 @ $200
                   </label>
                   

@@ -5,6 +5,7 @@ session_start();
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8"/>
         <title>Receipt</title>
         
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
@@ -24,12 +25,12 @@ session_start();
             <h2 class ="mainheading">Purchase Receipt</h2>
             </div>
             
-        </br>
-        </br>
+        <br/>
+        <br/>
         
        <center>
            
-           <img src ="https://www.freelogoservices.com/api/main/images/1j+ojl1FOMkX9WypfBe43D6kivaBqR5JnBrEwXs1M3EMoAJtlSEkgfVv9vg9" width:"170px" height="150px"; />
+           <img src ="https://www.freelogoservices.com/api/main/images/1j+ojl1FOMkX9WypfBe43D6kivaBqR5JnBrEwXs1M3EMoAJtlSEkgfVv9vg9" alt ="logo" style ="width:250px; height:150px;"/>
         
         <br/>
         <br/>
@@ -52,7 +53,7 @@ session_start();
         <p><strong>Thank you for shopping at Buzz & Ronny's Cloud services. If you have any further enquires please email : buzzandronny@email.ie</strong></p>
         
         <br/>
-        <a href= "Ebus1.php"><button class="btnShop">Back to Shop</button></a>
+        <a href= "Ebus1.php" class="btnShop" style="text-decoration: none">Back to Shop</a>
         </center>
        </div>
        

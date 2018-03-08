@@ -6,6 +6,7 @@ session_start();
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8"/>
         <title>Enter Details</title>
     
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
@@ -69,7 +70,7 @@ session_start();
                 
                 <br/>
                 <button  type ="submit" id="btnValidate" onClick ="validateDetails()">Validate</button>
-            <div/>
+            </div>
             <script type ="text/javascript" src="ebus2_validator.js"></script>
         
         
